@@ -1,0 +1,41 @@
+{
+  "name": "work-timer",
+  "version": "1.0.0",
+  "description": "Unfazed WorkHour Timer - Stay on top of your work hours",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "Unfazed",
+  "license": "ISC",
+  "dependencies": {
+    "auto-launch": "^5.0.6",
+    "electron-store": "^8.1.0"
+  },
+  "devDependencies": {
+    "electron": "^41.0.2",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.unfazed.workhour-timer",
+    "productName": "Unfazed WorkHour Timer",
+    "files": [
+      "**/*",
+      "!node_modules/electron-builder/**",
+      "!dist/**"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": false,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Unfazed WorkHour Timer"
+    }
+  }
+}

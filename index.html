@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+  <link rel="stylesheet" href="style.css">
+  <title>Work Timer</title>
+</head>
+<body>
+  <div class="app-container">
+    <button id="close-btn" class="close-btn" title="Close App">&times;</button>
+
+    <div id="main-view" class="view active">
+      <div class="timer-wrapper">
+        <div id="time-display">00:00:00</div>
+      </div>
+      <div id="quote-display">Stay <span class="orange-text">Unfazed</span></div>
+      <div class="controls">
+        <button id="play-pause-btn" class="btn primary-btn">Start</button>
+        <button id="save-btn" class="btn secondary-btn" disabled>Save</button>
+      </div>
+      <button id="toggle-history-btn" class="text-btn">History &rarr;</button>
+    </div>
+
+    <div id="history-view" class="view">
+      <h3 class="history-title">Saved Sessions</h3>
+      <div id="history-list" class="history-list">
+        <!-- History items injected here -->
+      </div>
+      <div class="history-footer">
+        <button id="back-btn" class="text-btn">&larr; Back</button>
+        <button id="clear-history-btn" class="text-btn danger-btn">Clear All</button>
+      </div>
+    </div>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>

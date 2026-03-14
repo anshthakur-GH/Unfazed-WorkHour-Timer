@@ -1,0 +1,19 @@
+# Build output - contains large executables not suitable for GitHub
+dist/
+out/
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Runtime data
+*.pid
+*.seed
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.vscode/settings.json
