@@ -1,0 +1,67 @@
+﻿[
+    {
+        "Name":  "ActivityWatch",
+        "command":  "ActivityWatch.lnk",
+        "Location":  "Startup"
+    },
+    {
+        "Name":  "Send to OneNote",
+        "command":  "Send to OneNote.lnk",
+        "Location":  "Startup"
+    },
+    {
+        "Name":  "Unfazed WorkHour Timer",
+        "command":  "Unfazed WorkHour Timer.lnk",
+        "Location":  "Startup"
+    },
+    {
+        "Name":  "ProtonVPN",
+        "command":  "C:\\Program Files\\Proton\\VPN\\ProtonVPN.Launcher.exe",
+        "Location":  "HKU\\S-1-5-21-742398997-293185402-1255373830-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run"
+    },
+    {
+        "Name":  "Discord",
+        "command":  "\"C:\\Users\\mailt\\AppData\\Local\\Discord\\Update.exe\" --processStart Discord.exe",
+        "Location":  "HKU\\S-1-5-21-742398997-293185402-1255373830-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run"
+    },
+    {
+        "Name":  "electron.app.Notion",
+        "command":  "C:\\Users\\mailt\\AppData\\Local\\Programs\\Notion\\Notion.exe --open-at-login",
+        "Location":  "HKU\\S-1-5-21-742398997-293185402-1255373830-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run"
+    },
+    {
+        "Name":  "electron",
+        "command":  "\"C:\\Users\\mailt\\Desktop\\U N F A Z E D\\Antigravity Projects\\Work Timer\\node_modules\\electron\\dist\\electron.exe\"",
+        "Location":  "HKU\\S-1-5-21-742398997-293185402-1255373830-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run"
+    },
+    {
+        "Name":  "Work Timer",
+        "command":  "\"C:\\Users\\mailt\\Desktop\\U N F A Z E D\\Antigravity Projects\\Work Timer\\dist\\Work Timer-win32-x64\\Work Timer.exe\"",
+        "Location":  "HKU\\S-1-5-21-742398997-293185402-1255373830-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run"
+    },
+    {
+        "Name":  "Unfazed WorkHour Timer",
+        "command":  "\"C:\\Users\\mailt\\Desktop\\U N F A Z E D\\Antigravity Projects\\Unfazed WorkHour Timer\\dist\\win-unpacked\\Unfazed WorkHour Timer.exe\"",
+        "Location":  "HKU\\S-1-5-21-742398997-293185402-1255373830-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run"
+    },
+    {
+        "Name":  "AnyDesk",
+        "command":  "C:\\PROGRA~2\\AnyDesk\\AnyDesk.exe  --control",
+        "Location":  "Common Startup"
+    },
+    {
+        "Name":  "SecurityHealth",
+        "command":  "%windir%\\system32\\SecurityHealthSystray.exe",
+        "Location":  "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run"
+    },
+    {
+        "Name":  "RtkAudUService",
+        "command":  "\"C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_8b8f1bcdf16553b6\\RtkAudUService64.exe\" -background",
+        "Location":  "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run"
+    },
+    {
+        "Name":  "UrbanVPN",
+        "command":  "\"C:\\Program Files (x86)\\UrbanVPN\\Urban Vpn Updater.exe\" /checknow -minuseractions -restartapp \"C:\\Program Files (x86)\\UrbanVPN\\bin\\urban-vpn-app.exe\" -restartappcmd \"--tray-minimized\"",
+        "Location":  "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run"
+    }
+]

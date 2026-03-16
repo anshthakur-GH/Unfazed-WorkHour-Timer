@@ -88,7 +88,7 @@ app.whenReady().then(() => {
 
   // Auto-launch configuration
   let autoLauncher = new AutoLaunch({
-    name: 'Work Timer',
+    name: 'Unfazed WorkHour Timer',
     path: app.getPath('exe'),
   });
 
